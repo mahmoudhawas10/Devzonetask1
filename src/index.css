@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+/* start header */
+header{
+  background-color: #c4daff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  padding: 10px 20px; 
+}
+ul{
+  list-style: none;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  transition: 0.4s ease;
+}
+nav ul li a:hover{
+  color: #0355CC;
+}
+nav ul li:first-child a {
+  color: #0355CC; 
+  font-weight: bold; 
+}
+nav img{
+  height: 50px;
+  width: auto;
+  border-radius: 20%;
+}
+
+/* end header */
+
+/* start home */
+#home{
+  background-image: url("./Component/Home/home_img.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#home h1{
+  color: rgb(241, 241, 241);
+  font-size: 4rem;
+  padding-top: 40px;
+  padding: 30px;
+}
+#home button{
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease, transform 0.2s ease;
+}
+#home button:hover{
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+/* end home */
+/* start footer */
+footer{
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+}
+footer ul li a{
+  text-decoration: none;
+  color: #949494;
+  transition: color 0.3s ease;
+}
+footer ul li a:hover{
+  color: #fff
+}
+/* end footer */
